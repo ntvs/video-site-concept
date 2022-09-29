@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: arial;
+  background-color: darkgray;
+  overflow-y: scroll;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.videoPlayer, video {
+  height: 480px;
+  width: 640px;
+  background-color: black;
+}
+
+.rating {
+  height: 33px;
+  width: 120px;
+  background-color: darkgray;
+}
+
+.customButton {
+  height: 33px;
+  width: 144px;
+  background-color: #4eb02a; /*#61e332*/
+}
+
+.videoPlate {
+  min-height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.channelPlate {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: white;
+}
+
+.titleBar li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li {
+  padding: 5px 0px;
+}
+
+.titleBar {
+  padding: 5px 0px;
+  display: grid;
+  grid-template-columns: 372px 120px 144px;
+  grid-column-gap: 2px;
+}
+
+.plateList {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.proPic {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0px auto;
+}
+
+.channelName {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin: 0px auto;
+  display: block;
+  width: 70%;
+}
+
+.channelBio {
+  text-align: center;
+  width: 70%;
+  word-wrap: break-word;
+  display: block;
+  margin: 0px auto;
+}
+
+.siteButton1 {
+  margin: 0px 0px 5px 0px;
+  padding: 10px;
+  text-align: center;
+  /*font-weight: bold;*/
+  background-color: darkgray;
+  color: #545454;
+  transition: 0.2s;
+  user-select: none;
+  cursor: default;
+}
+
+.siteButton1:hover {
+  color: #545454;
+  background-color: #9c9c9c;
+}
+.siteButton1:active {
+  scale:0.98;
+  /*-webkit-transform: scale(0.98);*/
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 640px 358px;
+  grid-column-gap: 10px;
+
+  padding: 0px 10px;
+
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.35);
+}
+
+.leftSide {
+  width: 640px;
+}
+
+.rightSide {
+  width: 350px;
+}
